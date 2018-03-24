@@ -32,8 +32,3 @@ with open('reddit_dataV1.1.csv', 'w', newline='') as csvfile:
 		
 csvfile.close()
 
-
-# for submission in subreddit.hot(limit=1):
-# 	print(submission.title)
-# 	print(submission.author)
-# 	print(submission.comments.list())
